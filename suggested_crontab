@@ -1,0 +1,1 @@
+0 5 * * * cd <PATH/TO/DuckDownloader> && python3 duckDownloader.py
