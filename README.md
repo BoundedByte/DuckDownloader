@@ -33,6 +33,12 @@ Navigate to the file in your terminal of choice and simply execute `python3 duck
 
 If you'd like to have the script run once daily, you can modify the `<PATH/TO/DuckDownloader>` in [suggested_crontab](./suggested_crontab) and schedule it in your crontab, but make sure you know what you're doing.
 
+# Tools
+
+Programs under the tools directory will interact with your local archives to perform various fun tasks.
+All tools are designed to be executed from the repository's top-level directory, ie: `python3 tools/count_words.py`
+Use the `--help` argument for descriptions and options of each script.
+
 # In the Future (maybe)
 
 * Filter downloads by metadata matches such as: streamer, date range, title-regex

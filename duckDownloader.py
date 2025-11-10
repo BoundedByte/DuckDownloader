@@ -349,7 +349,7 @@ def load_known(csv: Union[str,pathlib.Path],
     if not csv.exists():
         logger.info(f"Did NOT find csv at {csv}, making empty template")
         df = pd.DataFrame(columns=['date','user','type','title','downloaded',
-                                   'id_path'])
+                                   'id_path','game_name'])
         return df
 
     df = pd.read_csv(csv)
