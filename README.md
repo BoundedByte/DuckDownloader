@@ -10,6 +10,7 @@ This repository exists because I wish to keep my own local copies in a slightly 
 The Python script relies on local installations of Python3 and the Pandas library.
 Refer to [https://www.python.org/downloads/]() and [https://pypi.org/project/pandas/]() for instructions on installing the software on your system.
 To download Pandas via your Python interpreter, you may instead `pip install -r requirements.txt`.
+
 Note that the `requirements.txt` file lists a _suggested_ minimum version, but is _not strictly tested_ against all previous/future versions.
 This generally requires Python 3.9 and later, but again your mileage may vary: and newer/older versions of Python3 are _not strictly tested_.
 
